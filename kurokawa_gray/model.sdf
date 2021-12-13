@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="kurokawa_gray">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://kurokawa_gray/meshes/kurokawa_two_plane.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://kurokawa_gray/meshes/kurokawa_two_plane.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+            <script>
+                <uri>model://kurokawa_gray/materials/kurokawa_color.material</uri>
+                <name>kurokawa_color</name>
+            </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

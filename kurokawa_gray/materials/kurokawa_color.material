@@ -1,0 +1,10 @@
+material kurokawa_color {
+  technique {
+    pass {
+      texture_unit {
+        texture kurokawa_color.png
+        scale 1 1
+      }
+    }
+  }
+}

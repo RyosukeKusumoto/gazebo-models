@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="welding_board_gray">
+    <static>true</static>
+    <link name="link">
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://welding_board_gray/meshes/welding_board.stl</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://welding_board_gray/meshes/welding_board.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+            <script>
+                <uri>model://welding_board_gray/materials/welding_board_color.material</uri>
+                <name>welding_board_color</name>
+            </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>

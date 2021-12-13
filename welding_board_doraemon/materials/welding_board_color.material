@@ -1,0 +1,10 @@
+material doraemon_color {
+  technique {
+    pass {
+      texture_unit {
+        texture doraemon_cut500.jpg
+        scale 1 1
+      }
+    }
+  }
+}
